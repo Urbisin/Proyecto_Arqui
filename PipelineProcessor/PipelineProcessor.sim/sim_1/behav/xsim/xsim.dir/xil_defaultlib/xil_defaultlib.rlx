@@ -1,0 +1,22 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/sebas/Documents/Sebitas/Universidad/VivadoProjects/PipelineProcessor/PipelineProcessor.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+C:/Users/sebas/Downloads/lab5/LAB5/adder.v,1731603115,verilog,,C:/Users/sebas/Downloads/lab5/LAB5/alu.v,,adder,,,,,,,,
+C:/Users/sebas/Downloads/lab5/LAB5/alu.v,1731603115,verilog,,C:/Users/sebas/Downloads/lab5/LAB5/arm.v,,alu,,,,,,,,
+C:/Users/sebas/Downloads/lab5/LAB5/arm.v,1731603115,verilog,,C:/Users/sebas/Downloads/lab5/LAB5/condcheck.v,,arm,,,,,,,,
+C:/Users/sebas/Downloads/lab5/LAB5/condcheck.v,1731603115,verilog,,C:/Users/sebas/Downloads/lab5/LAB5/condlogic.v,,condcheck,,,,,,,,
+C:/Users/sebas/Downloads/lab5/LAB5/condlogic.v,1731603115,verilog,,C:/Users/sebas/Downloads/lab5/LAB5/controller.v,,condlogic,,,,,,,,
+C:/Users/sebas/Downloads/lab5/LAB5/controller.v,1731603115,verilog,,C:/Users/sebas/Downloads/lab5/LAB5/datapath.v,,controller,,,,,,,,
+C:/Users/sebas/Downloads/lab5/LAB5/datapath.v,1731603115,verilog,,C:/Users/sebas/Downloads/lab5/LAB5/decode.v,,datapath,,,,,,,,
+C:/Users/sebas/Downloads/lab5/LAB5/decode.v,1731603115,verilog,,C:/Users/sebas/Downloads/lab5/LAB5/dmem.v,,decode,,,,,,,,
+C:/Users/sebas/Downloads/lab5/LAB5/dmem.v,1731603115,verilog,,C:/Users/sebas/Downloads/lab5/LAB5/extend.v,,dmem,,,,,,,,
+C:/Users/sebas/Downloads/lab5/LAB5/extend.v,1731603115,verilog,,C:/Users/sebas/Downloads/lab5/LAB5/flopenr.v,,extend,,,,,,,,
+C:/Users/sebas/Downloads/lab5/LAB5/flopenr.v,1731603115,verilog,,C:/Users/sebas/Downloads/lab5/LAB5/flopr.v,,flopenr,,,,,,,,
+C:/Users/sebas/Downloads/lab5/LAB5/flopr.v,1731603115,verilog,,C:/Users/sebas/Downloads/lab5/LAB5/imem.v,,flopr,,,,,,,,
+C:/Users/sebas/Downloads/lab5/LAB5/imem.v,1731603115,verilog,,C:/Users/sebas/Downloads/lab5/LAB5/mux2.v,,imem,,,,,,,,
+C:/Users/sebas/Downloads/lab5/LAB5/mux2.v,1731603115,verilog,,C:/Users/sebas/Downloads/lab5/LAB5/regfile.v,,mux2,,,,,,,,
+C:/Users/sebas/Downloads/lab5/LAB5/regfile.v,1731603115,verilog,,C:/Users/sebas/Downloads/lab5/LAB5/top.v,,regfile,,,,,,,,
+C:/Users/sebas/Downloads/lab5/LAB5/tb_sc.v,1731603115,verilog,,,,testbench,,,,,,,,
+C:/Users/sebas/Downloads/lab5/LAB5/top.v,1731603115,verilog,,C:/Users/sebas/Downloads/lab5/LAB5/tb_sc.v,,top,,,,,,,,
