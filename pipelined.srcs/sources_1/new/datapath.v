@@ -61,7 +61,7 @@ module datapath (
     wire RegWriteE, MemtoRegE, MemWriteE, ALUSrcE;
     wire [1:0] ALUControlE;
     wire [31:0] SrcAE, SrcBE, ALUResultE, WriteDataE;
-    wire PCSrcE, BranchE, CondE;
+    wire PCSrcE, BranchE, CondE, FlagsE;
     
     // MEM (Memory) stage signals
     wire RegWriteM, MemtoRegM;
@@ -171,6 +171,7 @@ module datapath (
         .ALUSrcE(ALUSrcE),
         .ALUControlE(ALUControlE),
         .FlagWriteE(FlagWriteE),
+        .FlagsE(FlagsE),
         .BranchE(BranchE),
         .CondE(CondE),
         .RD1E(RD1E),

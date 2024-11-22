@@ -14,7 +14,7 @@ module controller (
 );
 	input wire clk;
 	input wire reset;
-	input wire [31:12] Instr;
+	input wire [31:12] InstrD;
 	input wire [3:0] ALUFlags;
 	output wire [1:0] RegSrc;
 	output wire RegWrite;
@@ -29,9 +29,9 @@ module controller (
 	wire RegW;
 	wire MemW;
 	decode dec(
-		.Op(Instr[27:26]),
-		.Funct(Instr[25:20]),
-		.Rd(Instr[15:12]),
+		.Op(InstrD[27:26]),
+		.Funct(InstrD[25:20]),
+		.Rd(InstrD[15:12]),
 		.FlagW(FlagW),
 		.PCS(PCS),
 		.RegW(RegW),
@@ -45,7 +45,7 @@ module controller (
 	condlogic cl(
 		.clk(clk),
 		.reset(reset),
-		.Cond(Instr[31:28]),
+		.Cond(InstrD[31:28]),
 		.ALUFlags(ALUFlags),
 		.FlagW(FlagW),
 		.PCS(PCS),
@@ -55,4 +55,7 @@ module controller (
 		.RegWrite(RegWrite),
 		.MemWrite(MemWrite)
 	);
+	
+	assign RegWrite = RegW & CondEx;
+	assign MemWrite = MemW & CondEx;
 endmodule
